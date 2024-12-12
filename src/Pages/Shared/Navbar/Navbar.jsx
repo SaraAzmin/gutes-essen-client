@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const NavOptions = (
       <>
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/home">Home</Link></li>
         <li>
           <a>Contact us</a>
         </li>
         <li>
-          <a>Dashboard</a>
+          <Link to="/menu">Menu</Link>
         </li>
         <li>
           <a>Our menu</a>
