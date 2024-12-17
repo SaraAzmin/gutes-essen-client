@@ -19,12 +19,12 @@ const PopularMenu = () => {
         subHeading="Popular Items"
       ></SectionTitle>
       <div className="flex flex-col">
-      <div className="grid md:grid-cols-2 gap-16">
+      <div className="grid md:grid-cols-2 gap-4 lg:gap-16">
         {menu.map((item) => (
           <MenuItem key={item._id} item={item}></MenuItem>
         ))}
       </div>
-      <button className="center btn btn-outline text-black border-black border-b-4 mt-10 text-lg px-10 mx-auto">View Full Menu</button>
+      <button className="center btn btn-outline text-black border-black border-b-4 mt-4 md:mt-10 text-sm md:text-lg px-6 md:px-10 mx-auto">View Full Menu</button>
       </div>
     </div>
   );
