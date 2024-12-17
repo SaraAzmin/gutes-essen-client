@@ -12,7 +12,7 @@ import SectionTitle from "../../../Pages/Shared/SectionTitle/SectionTitle.jsx";
 
 const Category = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-10 lg:mx-20">
       <SectionTitle
         subHeading={"From 11.00am to 10.00pm"}
         heading={"Order Online"}
@@ -25,12 +25,12 @@ const Category = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper mb-24"
+        className="mySwiper mb-10 lg:mb-24"
       >
         <SwiperSlide>
           <div className="flex flex-col items-center">
             <img className="rounded-xl" src={slide1} alt="" />
-            <h3 className="text-4xl uppercase text-center text-black -pb-11">
+            <h3 className="text-sm lg:text-4xl uppercase text-center text-black -pb-11">
               Salad
             </h3>
           </div>
@@ -38,7 +38,7 @@ const Category = () => {
         <SwiperSlide>
         <div className="text-center flex flex-col justify-center items-center">
             <img className="rounded-xl" src={slidee} alt="" />
-            <h3 className="text-4xl uppercase text-center text-black -pb-11">
+            <h3 className="text-sm lg:text-4xl uppercase text-center text-black -pb-11">
               Burger
             </h3>
           </div>
@@ -46,7 +46,7 @@ const Category = () => {
         <SwiperSlide>
           <div className="text-center flex flex-col justify-center items-center">
             <img className="rounded-xl" src={slide2} alt="" />
-            <h3 className="text-4xl uppercase text-center text-black -pb-11">
+            <h3 className="text-sm lg:text-4xl uppercase text-center text-black -pb-11">
               Pizza
             </h3>
           </div>
@@ -54,7 +54,7 @@ const Category = () => {
         <SwiperSlide>
         <div className="text-center flex flex-col justify-center items-center">
             <img className="rounded-xl" src={slide3} alt="" />
-            <h3 className="text-4xl uppercase text-center text-black -pb-11">
+            <h3 className="text-sm lg:text-4xl uppercase text-center text-black -pb-11">
               Soup
             </h3>
           </div>
@@ -62,7 +62,7 @@ const Category = () => {
         <SwiperSlide>
         <div className="text-center flex flex-col justify-center items-center">
             <img className="rounded-xl" src={slide4} alt="" />
-            <h3 className="text-4xl uppercase text-center text-black -pb-11">
+            <h3 className="text-sm lg:text-4xl uppercase text-center text-black -pb-11">
               Desserts
             </h3>
           </div>
@@ -70,7 +70,7 @@ const Category = () => {
         <SwiperSlide>
         <div className="text-center flex flex-col justify-center items-center">
             <img className="rounded-xl" src={slide5} alt="" />
-            <h3 className="text-4xl uppercase text-center text-black -pb-11">
+            <h3 className="text-sm lg:text-4xl uppercase text-center text-black -pb-11">
               Meals
             </h3>
           </div>

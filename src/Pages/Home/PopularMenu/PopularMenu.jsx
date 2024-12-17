@@ -13,7 +13,7 @@ const PopularMenu = () => {
       });
   }, []);
   return (
-    <div className="mx-40 mb-12">
+    <div className="mx-20 lg:mx-40 mb-12">
       <SectionTitle
         heading="From Our Menu"
         subHeading="Popular Items"
